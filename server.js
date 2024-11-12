@@ -30,3 +30,8 @@ app.listen(3000, () => {
     console.log('Server running on http://localhost:3000');
 });
 
+/*// Route with an optional query parameter
+app.get('/user/:username?/post/:postId?', (req, res) => {
+    const { username, postId } = req.params;
+    res.send(`User: ${username || 'Guest'}, Post ID: ${postId || 'None'}`);
+});*/
