@@ -1,0 +1,4 @@
+Type:    CNAME
+Host:    *
+Points to: your-server.com
+TTL:     3600
